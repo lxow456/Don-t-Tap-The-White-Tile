@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-image: url("register.png");
+            background-color: #b8e5f8;
+        }
+
+        #main {
+            width: 408px;
+            height: 408px;
+            border: 2px solid #fff;
+            margin: 0px auto;
+            border-radius: 10px;
+            box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+        }
+
+        #con {
+            width: 406px;
+            height: 408px;
+        }
+
+        #btn {
+            display: block;
+            margin: 0px auto;
+            margin-top: 20px;
+            background: #0084ff;
+            border-radius: 10px;
+            color: #fff;
+            cursor: pointer;
+            width: 150px;
+            height: 40px;
+            border: none;
+        }
+
+        #h2 {
+            margin: 15px;
+            color: #fff;
+        }
+
+        #span1 {}
+    </style>
+    <link rel="stylesheet" type="text/css" href="whiteandblack.css" />
+</head>
+
+<body>
+    <h2 id="h2">得分：<span id="span1">0</span></h2>
+    <div id="main">
+        <div id="con"></div>
+    </div>
+    <input type="button" id="btn" value="开始游戏" onclick="start()" />
+
+    <script src="whiteandblack.js"></script>
+</body>
+
+</html>
