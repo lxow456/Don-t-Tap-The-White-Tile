@@ -1,4 +1,2 @@
-Hello lixixang.
-test for git.
-second test for git.
-third test for git.
+ 服务器端修改文件1
+服务器端修改文件2
